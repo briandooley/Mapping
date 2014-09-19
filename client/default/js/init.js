@@ -15,5 +15,5 @@ $fh.ready(function() {
     }, function(msg, err) {
       console.log(msg);
     });
-})
+});
 });
