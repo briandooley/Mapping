@@ -3,7 +3,7 @@ $fh.ready(function() {
   $fh.geo({
     interval: 0
   }, function(res) {
-    alert("lat is " + res.at +  ", log is "+ res.lon ;)
+    alert("lat is " + res.at +  ", log is "+ res.lon);
     $fh.map({
       target: mapdiv,
       lat: res.lat,
